@@ -46,7 +46,7 @@ const Hero = () => {
         <div className="max-w-3xl">
           <p className="text-lg md:text-xl text-primary font-medium mb-4 animate-fadeIn">Hello, I'm</p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 animate-slideUp">
-            John Doe
+            Mohamed Ashif
           </h1>
           <div className="flex items-center mb-8">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-dark/80 dark:text-light/80">
