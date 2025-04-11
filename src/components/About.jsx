@@ -11,37 +11,21 @@ const About = () => {
   
   const experiences = [
     {
-      title: 'Senior Software Developer',
-      company: 'Tech Innovations Inc.',
-      period: '2021 - Present',
-      description: 'Led development of scalable web applications using React, Node.js, and AWS. Improved application performance by 40% through code optimization and implementing best practices.',
+      title: 'Frontend Developer',
+      company: 'Texol World.',
+      period: '2022 - Present',
+      description: 'Developing user-friendly web applications using React and Next.js. Collaborating with designers to implement responsive designs and optimize performance.',
     },
-    {
-      title: 'Full Stack Developer',
-      company: 'Digital Solutions Ltd.',
-      period: '2018 - 2021',
-      description: 'Developed and maintained multiple client projects using modern JavaScript frameworks. Collaborated with design and product teams to deliver high-quality web applications.',
-    },
-    {
-      title: 'Junior Web Developer',
-      company: 'WebCraft Agency',
-      period: '2016 - 2018',
-      description: 'Built responsive websites and implemented UI components. Worked with a team of developers to create custom solutions for clients across various industries.',
-    },
+ 
   ];
   
   const education = [
-    {
-      degree: 'Master of Computer Science',
-      institution: 'Tech University',
-      period: '2014 - 2016',
-      description: 'Specialized in software engineering and web technologies. Graduated with honors.',
-    },
+  
     {
       degree: 'Bachelor of Science in Computer Science',
-      institution: 'State University',
-      period: '2010 - 2014',
-      description: 'Focused on programming fundamentals, data structures, and algorithms. Participated in coding competitions.',
+      institution: 'MES College of Engineering',
+      period: '2017 - 2021',
+      description: 'Focused on software development and data structures. Participated in various coding competitions and hackathons.',
     },
   ];
   
@@ -49,7 +33,7 @@ const About = () => {
     { category: 'Frontend', items: ['React', 'Next.js', 'JavaScript/TypeScript', 'HTML/CSS', 'Tailwind CSS', 'Redux'] },
     { category: 'Backend', items: ['Node.js', 'Express', 'Python', 'Django', 'RESTful APIs', 'GraphQL'] },
     { category: 'Database', items: ['MongoDB', 'PostgreSQL', 'MySQL', 'Firebase'] },
-    { category: 'DevOps', items: ['Docker', 'AWS', 'CI/CD', 'Git', 'GitHub Actions'] },
+    { category: 'DevOps', items: ['Docker',  'Git', 'GitHub Actions'] },
   ];
   
   return (
@@ -67,27 +51,27 @@ const About = () => {
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-bold mb-2">John Doe</h3>
+                <h3 className="text-2xl font-bold mb-2">Mohamed Ashif</h3>
                 <p className="text-primary font-medium mb-4">Software Developer</p>
                 <div className="space-y-3">
                   <div className="flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-primary mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
-                    <span>john.doe@example.com</span>
+                    <span>ashifkkt1010@gmail.com</span>
                   </div>
                   <div className="flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-primary mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                     </svg>
-                    <span>+1 (555) 123-4567</span>
+                    <span>+91 6282769224</span>
                   </div>
                   <div className="flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-primary mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
-                    <span>San Francisco, CA</span>
+                    <span>Malappuram, Kerala</span>
                   </div>
                 </div>
                 
@@ -111,7 +95,7 @@ const About = () => {
           <div className="md:col-span-2">
             <div className="bg-white dark:bg-dark/80 rounded-lg shadow-lg p-6">
               <p className="text-lg mb-8">
-                I'm a passionate software developer with over 6 years of experience creating robust web applications. 
+                I'm a passionate software developer with over 3 years of experience creating robust web applications. 
                 I specialize in building responsive, user-friendly interfaces with React and developing scalable backend 
                 solutions. I'm dedicated to writing clean, maintainable code and staying up-to-date with the latest 
                 technologies and best practices in the industry.

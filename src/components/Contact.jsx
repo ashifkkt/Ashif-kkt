@@ -66,7 +66,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-semibold mb-1">Email</h4>
                   <a href="mailto:john.doe@example.com" className="text-primary hover:underline">
-                    john.doe@example.com
+                    ashifkkt1010gmail.com
                   </a>
                 </div>
               </div>
@@ -80,7 +80,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-semibold mb-1">Phone</h4>
                   <a href="tel:+15551234567" className="text-primary hover:underline">
-                    +1 (555) 123-4567
+                    +91 6292769224
                   </a>
                 </div>
               </div>
@@ -94,7 +94,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">Location</h4>
-                  <p>San Francisco, CA</p>
+                  <p>Malappuram, Kerala</p>
                 </div>
               </div>
             </div>
@@ -114,7 +114,9 @@ const Contact = () => {
                   </svg>
                 </a>
                 <a 
-                  href="https://linkedin.com" 
+                 
+                  
+                  href="https://linkedin.com/in/ashif-kkt" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="bg-white dark:bg-dark/80 p-3 rounded-full shadow-md text-gray-700 dark:text-gray-300 hover:text-primary transition-colors"
